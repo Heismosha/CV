@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Contacts</title>
-</head>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<body>
-    <h5>FEEL FREE TO CONTACT ME</h5>
+  <body>
+    <h1>My Contact Details</h1>
     <ul>
-        <li><a href="">davismosha840@gmail.com</a></li>
-        <li><a href="">whoisheis.com</a></li>
-        <li><a href="">davis mosha</a></li>
+      <li><a href="">davismosha840@gmail.com</a></li>
+      <li><a href="">whoisheis.com</a></li>
+      <li><a href="">davis mosha</a></li>
     </ul>
-</body>
-
+    <hr />
+    <form action="index.html" method="post">
+      <label for="">YourName:</label>
+      <input type="text" placeholder="John Doe" required /><br />
+      <label for="">YourEmail</label>
+      <input type="email" placeholder="johndoe@mail.com" required /><br />
+      <label for="">Yourmessage</label><br />
+      <textarea name="" id="" cols="20" rows="10"></textarea><br />
+      <input type="submit" value="send me" />
+    </form>
+  </body>
 </html>
